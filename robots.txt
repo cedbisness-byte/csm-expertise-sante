@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://csm-expertise-sante.vercel.app/sitemap.xml

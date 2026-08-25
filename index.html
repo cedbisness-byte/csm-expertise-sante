@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSM Expertise Santé — Vous soignez vos patients, je soigne votre administratif</title>
+  <meta name="description" content="CSM Expertise Santé : gestion administrative complète des cabinets de kinésithérapeutes et professionnels de santé libéraux. Facturation, télétransmission, suivi des paiements, installation & premiers pas en libéral. Confiance, expertise, sérénité.">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="canonical" href="https://csm-expertise-sante.vercel.app/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CSM Expertise Santé">
+  <meta property="og:title" content="CSM Expertise Santé — Vous soignez vos patients, je soigne votre administratif">
+  <meta property="og:description" content="Gestion administrative complète des cabinets de kinésithérapeutes et professionnels de santé libéraux. Facturation, télétransmission, suivi des paiements, installation libérale.">
+  <meta property="og:url" content="https://csm-expertise-sante.vercel.app/">
+  <meta property="og:image" content="https://csm-expertise-sante.vercel.app/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CSM Expertise Santé — Vous soignez vos patients, je soigne votre administratif">
+  <meta name="twitter:description" content="Gestion administrative complète des cabinets de kinésithérapeutes et professionnels de santé libéraux. Facturation, télétransmission, suivi des paiements, installation libérale.">
+  <meta name="twitter:image" content="https://csm-expertise-sante.vercel.app/img/og-image.jpg">
+  <meta name="geo.region" content="FR-83">
+  <meta name="geo.placename" content="Toulon">
+  <meta name="geo.position" content="43.1242;5.9280">
+  <meta name="ICBM" content="43.1242, 5.9280">
+    <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "CSM Expertise Santé",
+    "description": "Gestion administrative complète des cabinets de kinésithérapeutes et professionnels de santé libéraux : facturation, télétransmission, suivi des paiements, installation et premiers pas en libéral.",
+    "url": "https://csm-expertise-sante.vercel.app/",
+    "telephone": "+33613310757",
+    "email": "secretariat83100@gmail.com",
+    "image": "https://csm-expertise-sante.vercel.app/img/og-image.jpg",
+    "priceRange": "Sur devis",
+    "foundingDate": "2025",
+    "founder": {
+      "@type": "Person",
+      "name": "Christine Granata",
+      "jobTitle": "Fondatrice, secrétaire médicale diplômée"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Toulon"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toulon",
+      "addressRegion": "Var",
+      "postalCode": "83000",
+      "addressCountry": "FR"
+    },
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Installation et premiers pas en libéral",
+          "description": "Mise en place des outils et accès essentiels à votre activité de kinésithérapeute libéral."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Audit et sécurisation des revenus",
+          "description": "Analyse, optimisation et suivi de vos paiements pour sécuriser vos revenus."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accompagnement administratif sur mesure",
+          "description": "Gestion, organisation et suivi de votre administratif au quotidien."
+        }
+      }
+    ]
+  }
+  </script>
+  <script src="js/analytics.js" defer></script>
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <img src="img/logo.webp" alt="CSM Expertise Santé" class="logo__img">
+        <span class="logo__brand">
+          <span class="logo__brand-name">CSM Expertise Santé</span>
+          <span class="logo__brand-sub">L'expertise administrative</span>
+        </span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Navigation principale">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link is-active">Accueil</a></li>
+          <li><a href="prestations.html" class="nav__link">Prestations</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <div class="container breadcrumb__inner">
+      <a href="index.html">Accueil</a>
+      <span class="breadcrumb__sep" aria-hidden="true">&rsaquo;</span>
+      <span aria-current="page">Accueil</span>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__orbs" aria-hidden="true">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__orb hero__orb--3"></div>
+      </div>
+      <div class="hero__sparkles" aria-hidden="true">
+        <span class="hero__spark hero__spark--1"></span>
+        <span class="hero__spark hero__spark--2"></span>
+        <span class="hero__spark hero__spark--3"></span>
+        <span class="hero__spark hero__spark--4"></span>
+        <span class="hero__spark hero__spark--5"></span>
+      </div>
+      <div class="hero__flash" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__kicker reveal"><span class="hero__kicker-dot"></span> L'expertise administrative au service des professionnels de santé</p>
+          <h1 class="hero__title reveal reveal--d1">Vous soignez vos patients,<br><span class="grad">je soigne votre administratif</span></h1>
+          <p class="hero__text reveal reveal--d2">
+            Je suis Christine Granata, fondatrice de CSM Expertise Santé.
+            Je m'occupe de toute votre gestion : dossiers patients, facturation,
+            télétransmission et suivi des paiements. Vous exercez votre métier
+            sereinement, je veille sur votre administratif.
+          </p>
+          <div class="hero__actions reveal reveal--d3">
+            <a href="contact.html" class="btn btn--gold btn--lg">Prendre contact</a>
+            <a href="prestations.html" class="btn btn--ghost btn--lg">Découvrir les packs</a>
+          </div>
+          <ul class="hero__points reveal reveal--d4">
+            <li>Plus de 13 ans d'expérience</li>
+            <li>Spécialiste des cabinets de kinésithérapeutes</li>
+            <li>Confiance · Expertise · Sérénité</li>
+          </ul>
+        </div>
+        <div class="hero__visual reveal reveal--d2" aria-hidden="false">
+          <div class="hero__card">
+            <img src="img/logo.webp" alt="Logo CSM Expertise Santé" class="hero__card-logo">
+            <p class="hero__card-tag">Vous soignez vos patients,<br>je soigne votre administratif</p>
+          </div>
+          <div class="hero__badge hero__badge--1">
+            <span class="hero__badge-num">13 ans</span>
+            <span class="hero__badge-label">d'expérience auprès des soignants</span>
+          </div>
+          <div class="hero__badge hero__badge--2">
+            <span class="hero__badge-num">6 kinés</span>
+            <span class="hero__badge-label">accompagnés aujourd'hui</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Facturation</span><i>&#10087;</i><span>Télétransmission</span><i>&#10087;</i><span>Dossiers patients</span><i>&#10087;</i><span>Suivi des paiements</span><i>&#10087;</i><span>Rejets</span><i>&#10087;</i><span>Assurance Maladie</span><i>&#10087;</i><span>Complémentaires santé</span><i>&#10087;</i><span>Installation &amp; premiers pas</span><i>&#10087;</i>
+        <span>Facturation</span><i>&#10087;</i><span>Télétransmission</span><i>&#10087;</i><span>Dossiers patients</span><i>&#10087;</i><span>Suivi des paiements</span><i>&#10087;</i><span>Rejets</span><i>&#10087;</i><span>Assurance Maladie</span><i>&#10087;</i><span>Complémentaires santé</span><i>&#10087;</i><span>Installation &amp; premiers pas</span><i>&#10087;</i>
+      </div>
+    </div>
+
+    <section class="section" id="presentation">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">Qui suis-je ?</p>
+          <h2 class="section-title">Christine Granata, fondatrice de <span class="grad">CSM Expertise Santé</span></h2>
+          <p class="section-sub">Diplômée secrétaire médicale en 2013, j'ai consacré plus de treize ans à la gestion administrative des cabinets libéraux.</p>
+        </div>
+        <div class="split">
+          <div class="split__media reveal">
+            <div class="profile-card">
+              <span class="profile-card__badge">Secrétaire médicale diplômée 2013</span>
+              <div class="profile-card__logo">
+                <img src="img/logo.webp" alt="CSM Expertise Santé">
+              </div>
+              <h3 class="profile-card__name">Christine Granata</h3>
+              <p class="profile-card__role">Fondatrice de CSM Expertise Santé</p>
+              <div class="profile-card__stats">
+                <div class="profile-card__stat">
+                  <span>13<span class="gold">+</span></span>
+                  <p>années d'expérience</p>
+                </div>
+                <div class="profile-card__stat">
+                  <span>6</span>
+                  <p>kinés accompagnés</p>
+                </div>
+                <div class="profile-card__stat">
+                  <span class="gold">2025</span>
+                  <p>création de mon auto-entreprise</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="split__body">
+            <h3 class="reveal">Un accompagnement sur mesure, <span class="grad">à chaque étape de votre activité</span></h3>
+            <p class="split__text reveal reveal--d1">
+              Forte de plus de 13 années d'expérience dans le secrétariat médical, je travaille au sein
+              d'un cabinet de neuf kinésithérapeutes, où je gère l'administratif dans son ensemble :
+              dossiers médicaux, agendas, facturation, télétransmissions, gestion des rejets, suivi des
+              paiements en lien avec l'Assurance Maladie et les complémentaires santé.
+            </p>
+            <p class="split__text reveal reveal--d1">
+              Mon métier de secrétaire médicale est le fruit d'une reconversion professionnelle.
+              Diplômée en 2013, j'ai exercé dans différents environnements médicaux : laboratoire
+              d'analyses, Centre de la Main de Toulon (accueil des chirurgiens, infirmiers et kinés),
+              puis en cabinet libéral.
+            </p>
+            <p class="split__text reveal reveal--d1">
+              En octobre 2025, en parallèle de mon activité salariée qui me permet de rester au cœur
+              du métier, j'ai créé mon <strong>auto-entreprise de secrétariat médical à distance</strong>.
+              Développée grâce au bouche-à-oreille, elle accompagne aujourd'hui
+              <strong>six kinésithérapeutes</strong>, avec jusqu'à plusieurs milliers d'euros récupérés
+              grâce à l'analyse et au suivi des dossiers.
+            </p>
+            <p class="split__quote reveal reveal--d1">
+              Chaque année, notre cabinet accueille des étudiants en kinésithérapie. Leurs questions
+              sur l'administratif m'ont fait prendre conscience que ce qui me paraît aujourd'hui
+              naturel est le résultat de nombreuses années d'expérience. C'est ainsi qu'est née
+              l'envie de faire évoluer <strong>CSM Expertise Santé</strong> pour accompagner,
+              expliquer et transmettre.
+            </p>
+            <ul class="split__list reveal reveal--d2">
+              <li>Secrétaire médicale diplômée en 2013, spécialisée santé</li>
+              <li>Plus de 13 ans au sein d'un cabinet de neuf kinésithérapeutes</li>
+              <li>Auto-entreprise de secrétariat médical à distance depuis 2025</li>
+              <li>Recherche et résolution des situations administratives les plus complexes</li>
+            </ul>
+            <a href="contact.html" class="btn btn--green reveal reveal--d3">Échangeons sur votre projet</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--cream-2" id="prestations">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">Mes prestations</p>
+          <h2 class="section-title">Des packs pensés pour <span class="grad">vos besoins</span></h2>
+          <p class="section-sub">De l'installation libérale à l'accompagnement au quotidien, je vous propose un accompagnement clair et personnalisé.</p>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2 3 7v10l9 5 9-5V7l-9-5Z"/><path d="M3 7l9 5 9-5"/><path d="M12 12v10"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Installation &amp; premiers pas en libéral</h3>
+            <p class="card__text">Mise en place des outils et accès essentiels à votre activité pour démarrer sereinement.</p>
+            <a href="prestations.html#pack-360" class="card__link">En savoir plus <span>&rarr;</span></a>
+          </article>
+          <article class="card reveal reveal--d1">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v4h4"/><path d="M12 8v4l3 2"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Audit &amp; sécurisation des revenus</h3>
+            <p class="card__text">Analyse, optimisation et suivi de vos paiements pour sécuriser vos revenus.</p>
+            <a href="prestations.html#pack-audit" class="card__link">En savoir plus <span>&rarr;</span></a>
+          </article>
+          <article class="card reveal reveal--d2">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Accompagnement administratif sur mesure</h3>
+            <p class="card__text">Gestion, organisation et suivi de votre administratif au quotidien.</p>
+            <a href="prestations.html#pack-accompagnement" class="card__link">En savoir plus <span>&rarr;</span></a>
+          </article>
+        </div>
+        <div class="reveal u-center-mt38">
+          <a href="prestations.html" class="btn btn--ghost-dark btn--lg">Voir toutes les prestations</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Chiffres clés">
+      <div class="container stats__inner">
+        <div class="stat reveal">
+          <span class="stat__num">13<span class="gold">+</span></span>
+          <p class="stat__label">années d'expérience</p>
+        </div>
+        <div class="stat reveal reveal--d1">
+          <span class="stat__num">9</span>
+          <p class="stat__label">kinés accompagnés en cabinet</p>
+        </div>
+        <div class="stat reveal reveal--d2">
+          <span class="stat__num">6</span>
+          <p class="stat__label">kinés accompagnés à distance</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="valeurs">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">Mes valeurs</p>
+          <h2 class="section-title">La promesse <span class="grad">CSM Expertise Santé</span></h2>
+        </div>
+        <div class="values">
+          <div class="value reveal">
+            <div class="value__icon">
+              <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78Z"/>
+              </svg>
+            </div>
+            <h3 class="value__title">Confiance</h3>
+            <p class="value__text">Vos données, vos patients et votre activité sont entre de bonnes mains : discrétion et fiabilité garanties.</p>
+          </div>
+          <div class="value reveal reveal--d1">
+            <div class="value__icon">
+              <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a10 10 0 1 0 10 10H12V2Z"/><path d="M12 12 20 20"/><path d="M12 2v10"/>
+              </svg>
+            </div>
+            <h3 class="value__title">Expertise</h3>
+            <p class="value__text">Une connaissance approfondie des cabinets libéraux : Assurance Maladie, complémentaires santé et cas complexes.</p>
+          </div>
+          <div class="value reveal reveal--d2">
+            <div class="value__icon">
+              <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/>
+              </svg>
+            </div>
+            <h3 class="value__title">Sérénité</h3>
+            <p class="value__text">Un administratif bien géré, c'est moins de stress, des revenus sécurisés et davantage de temps pour vos patients.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta__glow" aria-hidden="true"></div>
+      <div class="container cta__inner">
+        <p class="cta__kicker reveal">Vous soignez vos patients, je soigne votre administratif</p>
+        <h2 class="cta__title reveal reveal--d1">Prêt à exercer votre métier en toute sérénité ?</h2>
+        <p class="cta__text reveal reveal--d2">Parlons de votre activité, de vos besoins et de la meilleure façon de vous accompagner.</p>
+        <div class="cta__actions reveal reveal--d3">
+          <a href="contact.html" class="btn btn--gold btn--lg">Me contacter</a>
+          <a href="tel:+33613310757" class="btn btn--ghost btn--lg">&#128222; 06 13 31 07 57</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+
+  <section class="section voir-aussi">
+    <div class="container">
+      <h2 class="voir-aussi__title">Pour aller plus loin</h2>
+      <div class="va-grid">
+      <a class="va-card" href="prestations.html">
+        <h3>Prestations</h3>
+        <p>Facturation, t&#233;l&#233;transmission, suivi des paiements, installation en lib&#233;ral : d&#233;couvrez tous mes services.</p>
+        <span class="va-card__more">Explorer</span>
+      </a>
+      <a class="va-card" href="contact.html">
+        <h3>Contact &amp; devis</h3>
+        <p>Un besoin, une question ? &#201;crivez-moi ou appelez-moi : r&#233;ponse garantie sous 24&#160;h ouvr&#233;es.</p>
+        <span class="va-card__more">Me joindre</span>
+      </a>      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo-wrap">
+          <img src="img/logo.webp" alt="CSM Expertise Santé" class="footer__logo">
+        </span>
+        <p class="footer__slogan">Vous soignez vos patients,<br><em>je soigne votre administratif</em></p>
+        <div class="footer__values">
+          <span>Confiance</span>
+          <span>Expertise</span>
+          <span>Sérénité</span>
+        </div>
+        <p class="footer__text">L'expertise administrative au service des professionnels de santé libéraux, et tout particulièrement des kinésithérapeutes.</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__title">Navigation</h4>
+        <ul class="footer__links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="prestations.html">Prestations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__title">Contact</h4>
+        <ul class="footer__links">
+          <li><a href="tel:+33613310757">06 13 31 07 57</a></li>
+          <li><a href="#" data-mailto="mailto:secretariat83100@gmail.com">secretariat83100@gmail.com</a></li>
+          <li>Région de Toulon (83) — Var</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; <span id="year"></span> CSM Expertise Santé. Tous droits réservés.</p>
+        <ul class="footer__legal">
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+          <li><a href="cgv.html">CGV</a></li>
+          <li><a href="politique-de-confidentialite.html">Politique de confidentialité</a></li>
+        </ul>
+        <p>Confiance · Expertise · Sérénité</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Revenir en haut de page" hidden>&#8593;</button>
+
+  <a href="prestations.html" class="cta-float">Passer à l'action</a>
+
+  <script src="js/main.js" defer></script>
+
+  <div class="mobile-cta" id="mobileCta" role="navigation" aria-label="Actions rapides">
+    <a class="mobile-cta__btn" href="tel:+33613310757"><span aria-hidden="true">&#9906;</span> Appeler</a>
+    <a class="mobile-cta__btn" href="#" data-mailto="mailto:secretariat83100@gmail.com"><span aria-hidden="true">&#9993;</span> E-mail</a>
+    <a class="mobile-cta__btn mobile-cta__btn--main" href="contact.html">Devis gratuit</a>
+  </div></body>
+</html>

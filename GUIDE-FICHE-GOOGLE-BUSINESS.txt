@@ -1,0 +1,124 @@
+=====================================================================
+ FICHE GOOGLE BUSINESS PROFILE - CSM EXPERTISE SANTE
+ Guide pas-a-pas pour maximiser le referencement local
+=====================================================================
+
+Pourquoi c'est essentiel ?
+Google affiche la fiche dans les resultats locaux (Maps + pack local).
+Pour une activite B2B aupres des kines liberaux sur Toulon, c'est le
+1er levier de visibilite, avant meme le referencement classique.
+
+---------------------------------------------------------------------
+ETAPE 1 - CREER OU REVENDIQUER LA FICHE
+---------------------------------------------------------------------
+1. Allez sur https://business.google.com (compte Google pro conseille,
+   ex. secretariat83100@gmail.com).
+2. Cliquez « Gerer maintenant » -> recherchez « CSM Expertise Sante ».
+   - Si elle existe deja -> « Revendiquer ».
+   - Sinon -> « Ajouter votre entreprise ».
+3. Type d'entreprise :
+   - Catégorie principale : « Service de secrétariat médical »
+     (ou à défaut « Assistant(e) administratif(ve) » / « Conseil aux entreprises »)
+   - Categories secondaires : « Service de facturation »,
+     « Consultant en gestion », « Formation pour adultes ».
+4. Zone de chalandise : cochez « Vous vous deplacez chez le client »
+   puis zone desservie : Toulon, La Valette-du-Var, La Garde,
+   Le Revest-les-Eaux, Hyeres, Ollioules, Sanary-sur-Mer,
+   Six-Fours-les-Plages + « France entiere (a distance) » si pertinent.
+
+---------------------------------------------------------------------
+ETAPE 2 - INFORMATIONS A SAISIR (copier-coller pret a l'emploi)
+---------------------------------------------------------------------
+Nom : CSM Expertise Santé
+      (n'ajoutez PAS de mots-cles dans le nom : risque de suspension)
+
+Telephone : 06 13 31 07 57
+
+Site web : https://csm-expertise-sante.vercel.app/
+
+Rendez-vous : activez le lien de prise de rendez-vous ->
+              https://csm-expertise-sante.vercel.app/contact.html
+
+Description (750 caracteres max) - COPIER-COLLER :
+
+« Vous soignez vos patients, je soigne votre administratif. CSM Expertise Santé accompagne les kinésithérapeutes et professionnels de santé libéraux sur Toulon et partout en France : facturation et télétransmission AMO/AMC, suivi et sécurisation des paiements, réclamation des impayés, installation et premiers pas en libéral, organisation du cabinet. Secrétaire médicale diplômée, Christine Granata vous garantit une réponse personnalisée sous 24 h ouvrées et un devis gratuit. Confiance, expertise, sérénité : concentrez-vous sur vos patients, je m'occupe du reste. »
+
+Produits/Services (section « Produits ») - creer 3 fiches :
+ 1) Installation et premiers pas en liberal
+    « Mise en place des outils et acces essentiels a votre activite :
+     annuaire Adeli, carte CPS/vitale, logiciels, conventionnement... »
+ 2) Audit et securisation des revenus
+    « Analyse de votre facturation, recuperation des impayes,
+     optimisation de votre chiffre d'affaires. »
+ 3) Accompagnement administratif sur mesure
+    « Gestion quotidienne ou ponctuelle de votre administratif :
+     secretariat, classement, relances, organisation. »
+
+---------------------------------------------------------------------
+ETAPE 3 - PHOTOS (min. 5, idealement renouvelees chaque mois)
+---------------------------------------------------------------------
+- Logo (deja disponible : img/logo.png)
+- Photo de couverture : img/presentation.png ou og-image.jpg
+- Photo de la fondatrice (Christine Granata) - indispensable pour
+  humaniser la fiche
+- Photo de poste/bureau professionnel
+- Capture ou visuel d'une prestation (facturation, teletransmission)
+
+Astuce : nommez les fichiers avant upload :
+csm-expertise-sante-toulon-secretariat-medical-1.jpg etc.
+
+---------------------------------------------------------------------
+ETAPE 4 - ATTRIBUTS & INFOS COMPLEMENTAIRES
+---------------------------------------------------------------------
+- Date d'ouverture : 2025 (foundingDate du site)
+- Accessible en ligne ET a domicile chez le client
+- Langues : Francais
+- Ajoutez les horaires si vous recevez sur RDV, sinon « Sur rendez-vous »
+
+---------------------------------------------------------------------
+ETAPE 5 - AVIS CLIENTS (levier n°1 de conversion)
+---------------------------------------------------------------------
+1. Copiez votre lien direct d'avis :
+   Profil Google Business -> « Demander des avis » -> copiez le lien
+2. Envoyez-le systematiquement apres chaque mission reussie :
+   « Si vous etes satisfait(e), un avis Google m'aide enormement :
+   [lien] »
+3. REPONDEZ A TOUS LES AVIS sous 48 h, meme aux 5 etoiles :
+   Exemple de reponse : « Merci beaucoup [Prenom] pour ce retour !
+   Ce fut un plaisir de soulager votre administratif. Je reste a
+   votre disposition. - Christine »
+4. Jamais de faux avis : Google les detecte et penalise.
+
+---------------------------------------------------------------------
+ETAPE 6 - PUBLICATIONS (1 a 2 par mois)
+---------------------------------------------------------------------
+Section « Promotions/Nouveautes » de la fiche :
+- Nouveaute service, conseil pratique (« 3 erreurs de facturation
+  qui coutent cher aux kines »), temoignage client...
+Chaque publication peut inclure un bouton « En savoir plus » vers
+https://csm-expertise-sante.vercel.app/prestations.html
+
+---------------------------------------------------------------------
+ETAPE 7 - VALIDER LE SITE DANS GOOGLE SEARCH CONSOLE
+---------------------------------------------------------------------
+1. https://search.google.com/search-console -> ajouter la propriete
+   « Domaine » ou « Prefixe URL » :
+   https://csm-expertise-sante.vercel.app/
+2. Valider via balise meta ou fichier HTML.
+3. Section « Sitemaps » -> soumettre :
+   https://csm-expertise-sante.vercel.app/sitemap.xml
+4. Apres validation, demander l'indexation des pages principales
+   (Inspection d'URL -> « Demander l'indexation »).
+
+---------------------------------------------------------------------
+ETAPE 8 - SUIVI
+---------------------------------------------------------------------
+- Statistiques de la fiche : recherches decouverte/directes,
+  appels, clics site, demandes d'itineraire.
+- Croiser avec Google Analytics (a connecter avec un ID GA4 reel).
+- Objectif raisonnable : 10+ avis 5 etoiles dans les 6 premiers mois.
+
+=====================================================================
+Resume express : Creer/revendiquer -> Completer 100% -> Photos ->
+Avis -> Publications -> Search Console -> Suivi mensuel.
+=====================================================================
