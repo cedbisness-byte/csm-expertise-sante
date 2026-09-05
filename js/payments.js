@@ -4,10 +4,8 @@
   /* ==================================================================
    *  CONFIGURATION DES PAIEMENTS — LIENS DE PAIEMENT
    *  ------------------------------------------------------------------
-   *  1) PAYPAL  : créez un lien de paiement par pack dans
-   *               paypal.com -> Paiements -> Liens de paiement
-   *  2) STRIPE  : créez un "Payment Link" par pack dans
-   *               dashboard.stripe.com -> Payment Links
+   *  STRIPE : créez un "Payment Link" par pack dans
+   *           dashboard.stripe.com -> Payment Links
    *
    *  Montants attendus (à vérifier lors de la création des liens) :
    *    Pack Installation...          : 290 €
@@ -18,12 +16,6 @@
    *  Tant qu'une valeur contient "REMPLACER", un message s'affiche
    *  à la place du paiement et un rappel est écrit dans la console.
    * ================================================================== */
-
-  var PAY_LINKS = {
-    "pack-360": "REMPLACER-PAR-LE-LIEN-PAYPAL-PACK-360",
-    "pack-audit": "REMPLACER-PAR-LE-LIEN-PAYPAL-PACK-AUDIT",
-    "pack-accompagnement": "REMPLACER-PAR-LE-LIEN-PAYPAL-PACK-ACCOMPAGNEMENT"
-  };
 
   var STRIPE_LINKS = {
     "pack-360": "REMPLACER-PAR-LE-LIEN-STRIPE-PACK-360",
@@ -72,7 +64,6 @@
     if (!pack) return;
 
     pack.appendChild(buildButton(id, STRIPE_LINKS[id], "btn btn--stripe", "Payer par carte", "Stripe"));
-    pack.appendChild(buildButton(id, PAY_LINKS[id], "btn btn--paypal", "Avec PayPal", "PayPal"));
 
     var secure = document.createElement("p");
     secure.className = "pay-secure";
